@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_reset_pitch" type="id">@+id/btn_reset_pitch</item>
+</resources>

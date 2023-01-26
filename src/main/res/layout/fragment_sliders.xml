@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/pitchBar"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:max="100"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0" />
+
+    <Button
+        android:id="@+id/btn_reset_pitch"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/pitchBar"
+        android:text="Reset pitch"
+        />
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/speedBar"
+        android:layout_width="144dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/pitchBar"
+
+        android:max="100"
+        android:rotation="0"
+        android:rotationX="0"
+        android:rotationY="0" />
+
+    <Button
+        android:id="@+id/btn_reset_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/speedBar"
+        android:layout_below="@id/btn_reset_pitch"
+        android:text="Reset speed"
+        />
+
+</RelativeLayout>
